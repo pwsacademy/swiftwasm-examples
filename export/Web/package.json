@@ -1,0 +1,20 @@
+{
+  "name": "swiftwasm-export",
+  "version": "1.0.0",
+  "description": "How to export a Swift function and call it from JavaScript",
+  "author": "PWS Academy",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "uwasi": "^1.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  }
+}

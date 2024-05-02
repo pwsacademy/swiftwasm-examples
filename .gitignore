@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Node
+package-lock.json
+node_modules/
+dist/
+
+# Swift
+.build/
+Bundle/
+
+# Visual Studio Code
+.vscode/

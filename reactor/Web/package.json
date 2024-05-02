@@ -1,0 +1,21 @@
+{
+  "name": "swiftwasm-reactor",
+  "version": "1.0.0",
+  "description": "A WebAssembly reactor written in Swift",
+  "author": "PWS Academy",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "javascript-kit-swift": "^0.19.0",
+    "uwasi": "^1.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  }
+}
