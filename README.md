@@ -11,3 +11,7 @@ These examples must be read in order, and before any others:
 3. [A WebAssembly Reactor](reactor/README.md)
 4. [Exporting Functions](export/README.md)
 5. [Importing Functions](import/README.md)
+
+## Extra's
+
+- [Connect Four](connect-four/README.md)
