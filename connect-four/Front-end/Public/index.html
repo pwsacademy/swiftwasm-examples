@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Connect Four</h1>
+    <div class="form">
+        <input type="text" id="name" placeholder="Your name">
+        <button id="start">Start</button>
+        <div id="error"></div>
+    </div>
+    <script>
+        const input = document.getElementById("name");
+        document.getElementById("start").onclick = () => {
+            const name = input.value;
+            if (!name || name.length == 0) {
+                error.innerText = "Please enter your name first";
+                error.style.display = "block";
+                return
+            }
+            error.style.display = "none";
+            localStorage.setItem("cf.name", name);
+            window.location.href = window.location.origin + "/play";
+        };
+        const error = document.getElementById("error");
+        error.style.display = "none";
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="ConnectFourWeb_ConnectFourWeb.resources/play.css">
+</head>
+<body>
+    <div id="status"></div>
+    <section id="game">
+        <canvas></canvas>
+        <div id="scoreboard">
+            <div class="name">
+                <div id="player-name"></div>
+                <div>(you)</div>
+            </div>
+            <span class="color" id="player-color"></span>
+            <span class="score" id="player-score"></span>
+            -
+            <span class="score" id="opponent-score"></span>
+            <span class="color" id="opponent-color"></span>
+            <div class="name">
+                <div id="opponent-name"></div>
+                <div>(opponent)</div>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="next-round">Another round!</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;500&display=swap');
+
+#status {
+    font: 300 1.5rem 'Oxanium';
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#game {
+    /* The game is hidden by default, and will show when loaded */
+    display: none;
+}
+
+canvas {
+    display: block;
+    margin-block: 2rem;
+    margin-inline: auto;
+}
+
+#scoreboard {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.5rem;
+    font: 400 1.25rem 'Oxanium';
+    margin-block: 2rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name div:last-of-type {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.color, .score {
+    font-size: 2rem;
+}
+
+#controls {
+    text-align: center;
+}
+
+#next-round {
+    background: darkblue;
+    border: 0;
+    border-radius: 0.5rem;
+    color: white;
+    font: 1.25rem 'Oxanium';
+    padding: 0.75rem 1rem;
+}
+
+#next-round:hover {
+    transform: scale(105%);
+}
