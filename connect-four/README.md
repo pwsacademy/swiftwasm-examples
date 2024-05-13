@@ -23,12 +23,6 @@ Therefore, the UI for this game is entirely written in Swift, using JavaScriptKi
 
 Use the **buildAndRun.sh** script to compile and run this example. This script will compile the front-end, copy the resulting static files to the back-end, and serve them from there.
 
-Alternatively, you can run the example using Docker:
-
-```
-docker compose up
-```
-
-The game will be served at http://127.0.0.1:9090/.
+The game will be served at http://127.0.0.1:9090/
 
 You can connect using multiple browsers to test the multiplayer functionality.
