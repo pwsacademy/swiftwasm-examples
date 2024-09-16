@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ev
 
-TOOLCHAIN=~/Library/Developer/Toolchains/swift-wasm-6.0-SNAPSHOT-2024-04-19-a.xctoolchain
+TOOLCHAIN=~/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-09-07-a.xctoolchain
 SWIFT=$TOOLCHAIN/usr/bin/swift
 
 cd Swift

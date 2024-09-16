@@ -50,7 +50,7 @@ The **swift** executable in this command must come from a SwiftWasm toolchain. C
 On my machine, the full version of the previous command is:
 
 ```
-~/Library/Developer/Toolchains/swift-wasm-6.0-SNAPSHOT-2024-04-19-a.xctoolchain/usr/bin/swift build --triple wasm32-unknown-wasi -Xswiftc -static-stdlib
+~/Library/Developer/Toolchains/swift-wasm-DEVELOPMENT-SNAPSHOT-2024-09-07-a.xctoolchain/usr/bin/swift build --triple wasm32-unknown-wasi -Xswiftc -static-stdlib
 ```
 
 The output of this command is a WebAssembly module named **Command.wasm** in the **.build/wasm32-unknown-wasi/debug** directory.
