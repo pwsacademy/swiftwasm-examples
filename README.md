@@ -14,6 +14,7 @@ The following examples must be read in order, and before any others:
 
 These can be read in any order:
 
+- [Strings and Codables](strings/README.md)
 - [Connect Four](connect-four/README.md)
 
 ## Installation
